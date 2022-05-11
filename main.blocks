@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="radio_on_number_drag" id="WWvM!!S9ESeXkV^LcrsK" x="336" y="-21"><value name="HANDLER_DRAG_PARAM_receivedNumber"><shadow type="argument_reporter_number" id="v5k4!W$9#do*I$EHLA{x"><field name="VALUE">receivedNumber</field></shadow></value><statement name="HANDLER"><block type="controls_if" id="OqJ`Z{eW-.59@Y+H,;pn"><mutation elseif="3" else="1"/><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="ksZmd!?6tl7ET/1)@=Y%"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="7=?afEiknV,UU8~sn;nX"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="eAYk~^N|Qsk0[=bi3jel"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="cutebot_move_time" id="SZYXufgrwMN%3w=}s!tU"><field name="dir">cuteBot.Direction.left</field><value name="speed"><shadow type="math_number" id="LriQ*XJI5d|+fr|:^Xr`"><field name="NUM">40</field></shadow></value><value name="time"><shadow type="math_number" id="vLB-:ND:$KPxg!PVPh4n"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="r1p7!U?q*O8Tb04r1@d]"><field name="LEDS">`
+        . # . . . 
+        # . . . . 
+        # # # # # 
+        # . . . . 
+        . # . . .
+        `</field></block></next></block></statement><value name="IF1"><block type="logic_compare" id="aWmYmeg2]?u?HTA}4U30"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="ihk6lMew83tbnb_?B3g~"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="bBkV*K8Ys9~Ljj/E.y;P"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="cutebot_move_time" id="j}0Dm13^5+KHxihg]7nr"><field name="dir">cuteBot.Direction.right</field><value name="speed"><shadow type="math_number" id="Itr*)xwbF98aoz4~O~=o"><field name="NUM">40</field></shadow></value><value name="time"><shadow type="math_number" id="3ESm}+;Yg((V,.-g|O52"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="f6jKE_P49{ZqydCL}.O1"><field name="LEDS">`
+        . . . # . 
+        . . . . # 
+        # # # # # 
+        . . . . # 
+        . . . # .
+        `</field></block></next></block></statement><value name="IF2"><block type="logic_compare" id="6-NcLUj}ETegf-vn8VDq"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="cl?M,Qzawc([LflNH#Ix"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="k0gaFS+K29BCS_#o,XbA"><field name="NUM">3</field></shadow></value></block></value><statement name="DO2"><block type="cutebot_forward" id="YxRY3DV4ew!=utGf5]UI"><next><block type="device_show_leds" id="3yEAiDdIc/?Cu?S?$*MD"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement><value name="IF3"><block type="logic_compare" id="DuEydGH9RgN)ehCvyAm@"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="t|7ujn0S`!F?=PKQu%*A"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="[|--QyOBf#Uag6Pi}du#"><field name="NUM">4</field></shadow></value></block></value><statement name="DO3"><block type="cutebot_back" id="2H~JSNzl$~neqZXP7rSX"><next><block type="device_show_leds" id="*C[g5TJL(H6}d7gdPb]O"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # .
+        `</field></block></next></block></statement><statement name="ELSE"><block type="cutebot_stopcar" id="i-oASk:J|iah?sD7m7n#"/></statement></block></statement></block><block type="pxt-on-start" id="r`Ot0+l*C@n[[(#+uOvO" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="+Gf(:Dk[ZekN{z.y3LtM"><value name="ID"><shadow type="math_number_minmax" id="}gee}:c!dwRz3N?uThR%"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">7</field></shadow></value></block></statement></block></xml>
